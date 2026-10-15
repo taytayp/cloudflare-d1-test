@@ -1,0 +1,16 @@
+{
+	"compatibility_date": "2025-10-08",
+	"main": "src/index.ts",
+	"name": "cloudflare-d1-test",
+	"upload_source_maps": true,
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_id": "442d1d8e-1436-4122-9bcc-ca3afc65b4bc",
+			"database_name": "d1-test-database"
+		}
+	],
+	"observability": {
+		"enabled": true
+	}
+}
